@@ -12,7 +12,6 @@ M5B,Downtown Toronto,"Garden District, Ryerson"
 M6B,North York,Glencairn
 M9B,Etobicoke,"West Deane Park, Princess Gardens, Martin Grove, Islington, Cloverdale"
 M1C,Scarborough,"Rouge Hill, Port Union, Highland Creek"
-M3C,North York,Don Mills
 M4C,East York,Woodbine Heights
 M5C,Downtown Toronto,St. James Town
 M6C,York,Humewood-Cedarvale
@@ -45,21 +44,18 @@ M5K,Downtown Toronto,"Toronto Dominion Centre, Design Exchange"
 M6K,West Toronto,"Brockton, Parkdale Village, Exhibition Place"
 M1L,Scarborough,"Golden Mile, Clairlea, Oakridge"
 M2L,North York,"York Mills, Silver Hills"
-M3L,North York,Downsview
 M4L,East Toronto,"India Bazaar, The Beaches West"
 M5L,Downtown Toronto,"Commerce Court, Victoria Hotel"
 M6L,North York,"North Park, Maple Leaf Park, Upwood Park"
 M9L,North York,Humber Summit
 M1M,Scarborough,"Cliffside, Cliffcrest, Scarborough Village West"
 M2M,North York,"Willowdale, Newtonbrook"
-M3M,North York,Downsview
 M4M,East Toronto,Studio District
 M5M,North York,"Bedford Park, Lawrence Manor East"
 M6M,York,"Del Ray, Mount Dennis, Keelsdale and Silverthorn"
 M9M,North York,"Humberlea, Emery"
 M1N,Scarborough,"Birch Cliff, Cliffside West"
 M2N,North York,Willowdale
-M3N,North York,Downsview
 M4N,Central Toronto,Lawrence Park
 M5N,Central Toronto,Roselawn
 M6N,York,"Runnymede, The Junction North"
@@ -71,7 +67,6 @@ M5P,Central Toronto,Forest Hill North & West
 M6P,West Toronto,"High Park, The Junction South"
 M9P,Etobicoke,Westmount
 M1R,Scarborough,"Wexford, Maryvale"
-M2R,North York,Willowdale
 M4R,Central Toronto,North Toronto West
 M5R,Central Toronto,"The Annex, North Midtown, Yorkville"
 M6R,West Toronto,"Parkdale, Roncesvalles"
