@@ -109,21 +109,21 @@ where $n_{i}$ is the number of venues of the $i$th group in the borough, and N i
 
 The purpose of the algorithm is to recommend a list of boroughs to a user based on their specified preferences. 
 
-Let $W$ be a venue matrix of dimensions $n \times m$, where every element represents a normalized density of venue group $j$ in a borough $i$:
+Let __W__ be a venue matrix of dimensions *n* x *m*, where every element represents a normalized density of venue group *j* in a borough *i*:
 
-$$W = \begin{bmatrix} a_{11} & ... & a_{1m} \\ ... & a_{ij} & ... \\ a_{n1} & ... & a_{nm} \end{bmatrix}$$
+![](figures/equation_1.jpg "Equation 1")
 
-The user-provided preferences can be formally written as a column vector $p$:
+The user-provided preferences can be formally written as a column vector __p__:
 
-$$p = \begin{bmatrix} p_{1} \\ ... \\ p_{m} \end{bmatrix}$$
+![](figures/equation_2.jpg "Equation 2")
 
-Recommendation matrix $R$ then can be calculated as a matrix product:
+Recommendation matrix __R__ then can be calculated as a matrix product:
 
-$$R = W \times p  = \begin{bmatrix} r_{1} \\ ... \\ r_{m} \end{bmatrix}$$
+![](figures/equation_3.jpg "Equation 3")
 
-This matrix is a column vector of length $n$ where each row represents the weight of each borough. The larger the weight, the closer the borough matches users preference. 
+This matrix is a column vector of length *n* where each row represents the weight of each borough. The larger the weight, the closer the borough matches users preference. 
 
-Given a number $N$ of boroughs we want to recommend, $N$ largest weights are selected and the list of boroughs are returned in an order from the highest weigh $r$ to the lowest.
+Given a number *N* of boroughs we want to recommend, *N* largest weights are selected and the list of boroughs are returned in an order from the highest weigh *r* to the lowest.
 
 Implementation in Python:
 
@@ -182,10 +182,11 @@ def recommend_boroughs(W=None, p=None, n_brghs=5):
 
 The venue density matrix $W$ is filtered in advance based on user's selection on upper and lower limits for rent: $m_{min}$ and $m_{max}$ and the accommodation type. The dataset for borough rent data contains first $q_{1}$ and third quartile $q_{3}$ information. Only the boroughs satisfying either of the below condition are kept in the $W$ matrix:
     
-$$ \begin{align*}
+$$ 
+\begin{aligned}
   q_{1} \le m_{max} \land q_{3} \ge m_{max} \\ 
   q_{1} \le m_{min} \land q_{3} \ge m_{min} \\ 
-\end{align*}
+\end{aligned}
 $$
 
 Implementation in Python:
