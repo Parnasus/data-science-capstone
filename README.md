@@ -2,7 +2,7 @@
 
 This repository contains capstone project for  IBM Data Science Certification. Below is the report which summarizes the project. More details of the implementation can be found in [Jupyter Notebook](https://github.com/Parnasus/data-science-capstone/blob/master/Coursera%20Capstone%20-%20Battle%20of%20the%20Neighborhoods.ipynb). 
 
-Implementation in the form of a web app can be found [here](https://github.com/Parnasus/data-science-capstone/blob/master/Coursera%20Capstone%20-%20Battle%20of%20the%20Neighborhoods.ipynb).
+Implementation in the form of a web app can be found [here](https://ldn-borough-rec.herokuapp.com/).
 
 # IBM Data Science Professional Certificate
 ## Capstone Project: Recommendation of London Boroughs
